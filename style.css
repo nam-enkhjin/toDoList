@@ -1,0 +1,14 @@
+.img{
+    background-blend-mode: lighten;
+    animation: appear linear;
+    animation-timeline: view;
+    animation-range: entry 25% over 50%;
+
+    animation-timing-function: ease-in-out;
+    animation-duration:0s;
+}
+#bod{
+    display: flex; 
+    justify-content: center;
+    height: 100%
+}
